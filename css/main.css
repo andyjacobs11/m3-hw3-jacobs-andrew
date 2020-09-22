@@ -1,3 +1,10 @@
+.button {
+  padding: 1.5%;
+  background-color: #f8df1f;
+  border-radius: 7px;
+  width: 18%;
+  min-width: 150px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -33,6 +40,7 @@ button {
   background-color: #f8df1f;
   border-radius: 7px;
   width: 18%;
+  min-width: 150px;
 }
 .middle-section {
   padding: 5%;
@@ -49,6 +57,7 @@ button {
 }
 .middle-section p {
   font-size: .75rem;
+  padding-bottom: 2%;
 }
 .middle-section img {
   width: 15%;
@@ -72,6 +81,7 @@ button {
 }
 .bottom-section p {
   font-size: .75rem;
+  padding-bottom: 2%;
 }
 .bottom-section img {
   height: 15%;
