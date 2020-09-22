@@ -8,12 +8,12 @@
 }
 
 body{
-    background-color: @yellow;
+    background-color: @black;
 }
 
 nav{
     background-color: @yellow;
-    padding: 2%;
+    padding: 4%;
 }
 
 .current-page{
@@ -22,7 +22,8 @@ nav{
 
 nav ul li {
     display: inline;
-    padding: 3%;
+    padding: 2.25%;
+    font-size: .9rem;
 }
 
 .banner{
@@ -32,13 +33,16 @@ nav ul li {
 }
 
 .banner img{
-    height: 35%;
-    width: 35%;
-    padding: 0 0 2% 0;
+    .logo()
 }
 
 button {
     .button();
+}
+
+.red-text{
+    color: @red;
+    display: inline-block;
 }
 
 .middle-section{
@@ -91,4 +95,20 @@ button {
     height: 15%;
     width: 15%;
     padding-right: 5%;
+}
+
+.yellow-bar{
+    height: 8px;
+    width: 100%;
+    background-color: @yellow;
+}
+
+footer{
+    text-align: center;
+    padding-top: 3%;
+    background-color: @black;
+}
+
+footer img{
+    .logo()
 }

@@ -5,6 +5,11 @@
   width: 18%;
   min-width: 150px;
 }
+.logo {
+  height: 35%;
+  width: 35%;
+  padding: 0 0 2% 0;
+}
 * {
   margin: 0;
   padding: 0;
@@ -12,18 +17,19 @@
   font-family: 'Roboto', sans-serif;
 }
 body {
-  background-color: #f8df1f;
+  background-color: #080801;
 }
 nav {
   background-color: #f8df1f;
-  padding: 2%;
+  padding: 4%;
 }
 .current-page {
   color: #ee252f;
 }
 nav ul li {
   display: inline;
-  padding: 3%;
+  padding: 2.25%;
+  font-size: .9rem;
 }
 .banner {
   background-image: url(../img/banner-bg-dark.png);
@@ -41,6 +47,10 @@ button {
   border-radius: 7px;
   width: 18%;
   min-width: 150px;
+}
+.red-text {
+  color: #ee252f;
+  display: inline-block;
 }
 .middle-section {
   padding: 5%;
@@ -87,4 +97,19 @@ button {
   height: 15%;
   width: 15%;
   padding-right: 5%;
+}
+.yellow-bar {
+  height: 8px;
+  width: 100%;
+  background-color: #f8df1f;
+}
+footer {
+  text-align: center;
+  padding-top: 3%;
+  background-color: #080801;
+}
+footer img {
+  height: 35%;
+  width: 35%;
+  padding: 0 0 2% 0;
 }
